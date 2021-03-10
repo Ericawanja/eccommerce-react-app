@@ -18,7 +18,7 @@ class Products extends React.Component{
 
                 <section className='products'>
                 <div>
-                    <img src='/images/product10.png'></img>
+                    <img src='/images/product5.png'></img>
                     <section className= 'description'>
                         <p>adding description</p>
                         <p>$500</p>

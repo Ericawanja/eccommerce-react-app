@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css'
 import {FaCartPlus} from 'react-icons/fa'
+import {FaHome} from 'react-icons/fa'
 import { HashRouter,Route,NavLink, Switch } from 'react-router-dom'
 import AllNew from './AllNew'
 import Category1 from './category1'
@@ -15,8 +16,8 @@ class Header extends React.Component{
                 <div className='headerContainer'> 
                  <div className='header'>
                      <div className='header1'>
-                        <div className= 'loginIcons'>
-                            <NavLink to='#Login'>Login</NavLink>
+                        <div >
+                            <NavLink to='/home'><FaHome size='3rem' className='homeIcon'/></NavLink>
                         </div>
                          
                          <div className='title'>
@@ -36,6 +37,7 @@ class Header extends React.Component{
                  </div>
                  <div className='contents'>
                      <Switch>
+                         <Route path='/home' component={Home}/>
                          <Route path='/allNew'component={AllNew}/>
                          <Route path='/category1' component={Category1}/>
                          <Route path='/category2' component={Category2}/>

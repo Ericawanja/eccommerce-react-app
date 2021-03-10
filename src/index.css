@@ -8,8 +8,7 @@
 a{
     text-decoration: none;
     cursor:pointer;
-    color:rgb(46, 42, 44);
-
+    color:white;
 }
 .nav>a:hover:not(.active){
     color:rgb(141, 36, 36);
@@ -61,17 +60,34 @@ a{
     font-weight:bolder;
 }
 
-.loginIcons{
-    padding:2rem;
-    color:rgb(156, 96, 6);
+.homeIcon{
+    cursor: pointer;
+    color: white;
+    margin: 12px;
        
 }
-.title{
+/*.title{
+    color: rgb(235, 228, 228);
     letter-spacing:2px;
     font-size:1.5rem;
     text-transform: uppercase;
-    text-shadow: 2px 3px 1px rgb(228, 217, 213);
+    text-shadow: 2px 3px 1px rgb(214, 148, 148);
     
+}*/
+
+.title{
+    color: white;
+padding:1.5rem;
+text-align:center;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size:2rem;
+text-shadow: 0 2px 0 #c9c9c9, 
+             0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+             0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
+             0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
+             0 20px 20px rgba(0,0,0,.15), 5px -4px 0px rgba(173, 156, 151, 0.44);
 }
 
 
@@ -184,14 +200,17 @@ a{
     -webkit-box-shadow: -4px -4px 10px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: -4px -4px 10px 2px rgba(0,0,0,0.75);
 }
+.products>div:hover{
+    background-color: rgba(212, 37, 183, 0.3);
+}
 .products>div>img{
-    height:200px;
-    width:200px;
+    height:240px;
+    width:240px;
     object-fit: contain;
     
 }
 .products>div>img:hover{
-    transform: scale(1.1);
+    transform: scale(1.015);
 }
 .description{
     padding:3px 0;
@@ -203,11 +222,11 @@ a{
 .footerContainer{
     display:flex;
     flex-direction:column;
-    background-color: rgb(231, 221, 231);
+    background-color: rgb(221, 90, 221);
     justify-content:space-between;
     padding:1.5rem;
     margin-bottom:1.5rem;
-    
+       
 }
 
 .footerSection-a{
@@ -254,6 +273,7 @@ a{
 }
 
 .footerSection-b{
+    color: white;
     padding:1.5rem;
     text-align:center;
     text-transform: uppercase;

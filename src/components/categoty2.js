@@ -19,35 +19,35 @@ class Category2 extends React.Component{
                        </div>            
                      <section className='products'>
                      <div>
-                         <img src='/images/product10.png'></img>
+                         <img src='/images/product8.png'></img>
                          <section className= 'description'>
                             <p>adding description</p>
                             <p>$500</p>
                          </section>
                       </div>  
                     <div>
-                         <img src='/images/product1.png'></img>
+                         <img src='/images/product7.png'></img>
                          <section className= 'description'>
                              <p>adding description</p>
                              <p>$500</p>
                          </section>
                     </div>
                <div>
-                    <img src='/images/product8.png'></img>
+                    <img src='/images/product4.png'></img>
                    <section className= 'description'>
                        <p>adding description</p>
                        <p>$500</p>
                    </section>
                </div>
                <div>
-                    <img src='/images/product8.png'></img>
+                    <img src='/images/product2.png'></img>
                     <section className= 'description'>
                         <p>adding description</p>
                         <p>$500</p>
                     </section>
                </div>
                <div>
-                    <img src='/images/product8.png'></img>
+                    <img src='/images/product1.png'></img>
                     <section className= 'description'>
                         <p>adding description</p>
                         <p>$500</p>
